@@ -1,182 +1,182 @@
 const cohort_4 = [
     {
-        players: "Zaid Qarout",
+        player: "Zaid",
         score: 0
     },
     {
-        players:"Khang",
+        player:"Khang",
         score: 0
     },
     {
-        players:"Laura",
+        player:"Laura",
         score: 0
     },
     {
-        players:"Hazie",
+        player:"Hazie",
         score: 0
     },
     {
-        players:"Carl",
+        player:"Carl",
         score: 0
     },
     {
-        players:"Natalie",
+        player:"Natalie",
         score: 0
     },
     {
-        players:"Ismail",
+        player:"Ismail",
         score: 0
     },
     {
-        players:"Tom",
+        player:"Tom",
         score: 0
     },
     {
-        players:"Mahdi",
+        player:"Mahdi",
         score: 0
     },
     {
-        players:"Hajoo",
+        player:"Hajoo",
         score: 0
     },
     {
-        players:"Alice",
+        player:"Alice",
         score: 0
     },
     {
-        players:"William",
+        player:"William",
         score: 0
     },
     {
-        players:"Jon",
+        player:"Jon",
         score: 0
     },
     {
-        players:"Aftab",
+        player:"Aftab",
         score: 0
     },
     {
-        players:"Jeremy",
+        player:"Jeremy",
         score: 0
     },
     {
-        players:"Shanice",
+        player:"Shanice",
         score: 0
     },
     {
-        players:"Michael",
+        player:"Michael",
         score: 0
     },
     {
-        players:"Freshta",
+        player:"Freshta",
         score: 0
     },
     {
-        players:"Becky",
+        player:"Becky",
         score: 0
     },
     {
-        players:"Jessica",
+        player:"Jessica",
         score: 0
     },
     {
-        players:"Fadumo",
+        player:"Fadumo",
         score: 0
     },
     {
-        players:"Anna-Marie",
+        player:"Anna-Marie",
         score: 0
     },
     {
-        players:"Patrick",
+        player:"Patrick",
         score: 0
     },
     {
-        players: "Kawalpreet",
+        player: "Kawalpreet",
         score: 0
     },
     {
-        players: "James",
+        player: "James",
         score: 0
     },
     {
-        players: "Bradley ",
+        player: "Bradley ",
         score: 0
     },
     {
-        players: "Isabel",
+        player: "Isabel",
         score: 0
     },
     {
-        players: "Piper ",
+        player: "Piper ",
         score: 0
     },
     {
-        players: "Tommy",
+        player: "Tommy",
         score: 0
     },
     {
-        players: "Emma ",
+        player: "Emma ",
         score: 0
     },
     {
-        players: "Dan",
+        player: "Dan",
         score: 0
     },
     {
-        players: "Charlie ",
+        player: "Charlie ",
         score: 0
     },
     {
-        players: "Jo-Anne",
+        player: "Jo-Anne",
         score: 0
     },
     {
-        players: "Arshi ",
+        player: "Arshi ",
         score: 0
     },
     {
-        players: "Amelia",
+        player: "Amelia",
         score: 0
     },
     {
-        players: "Stefan",
+        player: "Stefan",
         score: 0
     },
     {
-        players: "Daniela",
+        player: "Daniela",
         score: 0
     },
     {
-        players: "Anna",
+        player: "Anna",
         score: 0
     },
     {
-        players: "Valentina ",
+        player: "Valentina ",
         score: 0
     },
     {
-        players: "Maxine",
+        player: "Maxine",
         score: 0
     },
     {
-        players: "Daniel ",
+        player: "Daniel ",
         score: 0
     },
     {
-        players: "Bryan ",
+        player: "Bryan ",
         score: 0
     },
     {
-        players: "Katie",
+        player: "Katie",
         score: 0
     },
     {
-        players: "Ionut ",
+        player: "Ionut ",
         score: 0
     },
     {
-        players: "Kunmi ",
+        player: "Kunmi ",
         score: 0
     }
 ]

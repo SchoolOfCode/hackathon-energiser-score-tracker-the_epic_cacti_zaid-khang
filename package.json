@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "createTable": "node ./db/scripts/createTable.js",
-    "populateTable": "node ./db/scripts/populateTable.js"
+    "createTable": "node -r dotenv/config ./db/scripts/createTable.js",
+    "populateTable": "node ./db/scripts/populateTable.js",
+    "dev": "node app.js" 
   },
   "repository": {
     "type": "git",
