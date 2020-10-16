@@ -14,6 +14,12 @@ async function incrementScore(id){
     // return sql
 }
 
+//get bootcamper by id
+async function getBootcampersById(id){
+    const res = await query(`SELECT * FROM cohort_4 WHERE id = $1`, [id])
+    return res
+}
+
 module.exports = {
     getAllBootcampers,
     incrementScore
