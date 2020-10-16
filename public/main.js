@@ -2,6 +2,7 @@ const dropdown = document.querySelector("#dropdown");
 const btnRetrieve = document.querySelector("#btnRetrieve");
 const span = document.querySelector("#span");
 const table = document.querySelector("#bootcampers");
+const congratsSpan = document.querySelector(".congrats")
 //using the fetch api
 //in the submit function I will use a fetch api to send a request to the server (port)
 async function submit() {
@@ -10,6 +11,9 @@ async function submit() {
     method: "PATCH",
   }).then((res) => res.json()); //.then is a function which takes a callback
   console.log(test);
+  let text = document.createElement("h3")
+  text.innerText = "Cograrts"
+  congratsSpan.appendChild(text)
 }
 
 //get the player through query string through express + bootcampers/incrementScore/id
@@ -18,6 +22,12 @@ async function submit() {
 function bootcamperName(val) {
   alert(val);
 }
+
+//add a congrats text upon submit
+// function addText(){
+    
+//     return newText
+// }
 
 //link getAllBootcampers() to btnRetrieve
 const dataValues = async function () {

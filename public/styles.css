@@ -4,6 +4,7 @@
 body {
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
+    background-color: wheat;
 }
 
 .container{
@@ -73,4 +74,19 @@ body {
     background-color: #23B8FF;
     color: white;
     text-align: center;
+  }
+
+  /*Style btnRetrieve*/
+  #btnRetrieve{
+      background-color: #23B8FF;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      margin: 20px 0 0 0;
+      width: 100%;
+  }
+
+  #btnRetrieve:hover{
+      background-color: teal;
+      color: white;
   }
