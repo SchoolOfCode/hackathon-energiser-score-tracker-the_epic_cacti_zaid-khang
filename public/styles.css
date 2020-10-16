@@ -48,3 +48,29 @@ body {
     width: 100%;
     padding: 10px;
 }
+
+/*Styling table*/
+#bootcampers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #bootcampers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #bootcampers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #bootcampers tr:hover {background-color: #ddd;}
+  
+  #bootcampers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #23B8FF;
+    color: white;
+    text-align: center;
+  }

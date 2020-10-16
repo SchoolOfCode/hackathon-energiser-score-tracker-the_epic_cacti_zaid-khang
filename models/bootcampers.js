@@ -3,7 +3,7 @@ const {query} =  require("../db/index");
 
 async function getAllBootcampers(){
     const sql = await query(`SELECT * FROM bootcampers ORDER BY score DESC;`);
-    return sql
+    return sql.rows
     // return sql.rows
 }
 
