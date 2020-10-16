@@ -8,7 +8,7 @@ let collection = myModule.cohort_4
 
 
 async function populateTable() {
-    const sql = `INSERT INTO cohort_4 (player, score) VALUES ($1, $2)`;
+    const sql = `INSERT INTO bootcampers (player, score) VALUES ($1, $2)`;
     collection.map(async function(value) {
         let res = await query(sql, [value.player, value.score])
         console.log(res)

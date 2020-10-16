@@ -13,9 +13,9 @@
             <div class="players">
                 <form>
                     <label>Select winners name:</label>
-                    <select class="dropdown">
+                    <select class="dropdown" id="dropdown" onchange="bootcamperName(this.value)">
                         <option value="0">Select your name</option>
-                        <option value="Zaid">Zaid</option>
+                        <option value="4">Zaid</option>
                         <option value="Khang">Khang</option>
                         <option value="Laura">Laura</option>
                         <option value="Hazie">Hazie</option>
@@ -71,7 +71,8 @@
                     </form>
 
                     <button onclick="submit()" class="btn">Submit</button>
-                
+
+                    <button id="btnRetrieve" onclick="dataValues()">Retrive Top Scorers</button>
             </div>
             
         </div>
